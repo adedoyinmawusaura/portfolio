@@ -54,16 +54,57 @@ nav{
 
 .banner{
     display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
+    justify-content: center;
     flex-direction: row;
     margin-top: 50px;
+    align-items: center;
 }
 
 .my-image{
-    border-width: 50%;
+   width: 45% !important;
+   height: 50% !important;
 }
 
-.banner-texr{
-
+.img-1{
+    margin: 0;
+    padding: 0;
 }
+
+.banner-text{
+    text-align: justify;
+}
+
+.hi{
+    font-weight: 200;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.name{
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 15px;
+    display: flex;
+    gap: 15px;
+    
+}
+
+.adedoyin{
+    font-weight: 600;
+}
+
+.field{
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.see-more{
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 30px;
+    /* margin-top: 10px; */
+}
+
