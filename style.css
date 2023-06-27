@@ -6,58 +6,68 @@
 
 .header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: black;
 }
 
 .header-1{
     width: 10%;
-    height: 100px;
+    height: 70px;
     background-color: aqua;
-    margin: 30px ;
+    margin-right: auto;
 }
 
-#link{
+.link{
     padding: 10px;
-    margin: 50px ;
-    color: aquamarine;
+    cursor: pointer;
+    margin: 50px;
+    background-color: aqua;
     transition: all 0.5s ease 0s;
+    border: none;
+    border-radius: 40px;
 }
 
 #link:hover{
-   
     color: rgb(180, 72, 29);
 }
 
 .nav-links{
     list-style: none;
-    background-color: rgb(43, 41, 41);
+    padding: 0px 30px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 20px;
+    
 }
 
-.nav-links{
-    display: flex;
-    padding: 40px;
-    justify-content: space-evenly;
-    align-items: center;
-}
+.nav-links li a {
+    transition: all 0.5s ease 0s;
+} 
+
+.nav-links li a:hover {
+    transition: all 0.5s ease 0s;
+    color: whitesmoke;
+} 
 
 .nav-links:hover {
-   
     color: aliceblue;
 }
 
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: center;   
+.nav{
+    margin-right: 90px;
 }
 
 .banner{
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 30px;
     align-items: center;
+
 }
 
 .my-image{
@@ -65,16 +75,13 @@ nav{
    height: 50% !important;
 }
 
-.img-1{
-    margin: 0;
-    padding: 0;
-}
 
 .banner-text{
     text-align: justify;
 }
 
 .hi{
+    font-family: "poppins";
     font-weight: 200;
     padding: 15px;
     font-size: 20px;
@@ -82,12 +89,12 @@ nav{
 }
 
 .name{
+    font-family: "poppins";
     font-weight: 200;
     font-size: 30px;
     line-height: 15px;
     display: flex;
     gap: 15px;
-    
 }
 
 .adedoyin{
@@ -95,6 +102,7 @@ nav{
 }
 
 .field{
+    font-family: "poppins";
     font-weight: 200;
     font-size: 30px;
     line-height: 30px;
@@ -102,9 +110,9 @@ nav{
 }
 
 .see-more{
+    font-family: "poppins";
     font-weight: 200;
     font-size: 30px;
     line-height: 30px;
-    /* margin-top: 10px; */
+    
 }
-
